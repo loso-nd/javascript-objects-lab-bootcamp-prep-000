@@ -20,3 +20,8 @@ function deleteFromObjectByKey(object, key){
   delete Object.assign(key);
   return Object.assign
 }
+
+function destructivelyDeleteFromObjectByKey(object, key){
+  delete Object.assign(key);
+  return Object.assign
+}
